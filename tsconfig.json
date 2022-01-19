@@ -1,0 +1,11 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "target": "ES2021",
+    "moduleResolution": "Node",
+    "sourceMap": false,
+    "outDir": "dist"
+  }
+}
