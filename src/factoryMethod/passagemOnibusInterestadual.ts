@@ -1,9 +1,9 @@
-import Passagem from './passagem';
+import { Passagem } from '.'
 
 /**
  * Este e um produto concreto
  */
-class PassagemOnibusInterestadual extends Passagem {
+export class PassagemOnibusInterestadual extends Passagem {
   constructor(origem: string, destino: string, dataHoraPartida: Date) {
     super(origem, destino, dataHoraPartida)
   }

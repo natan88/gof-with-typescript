@@ -2,7 +2,7 @@
  * Esta classe é o produto abstrato
  */
 
-abstract class Passagem {
+export abstract class Passagem {
   constructor(
     private origem: string,
     private destino: string,
@@ -27,5 +27,3 @@ abstract class Passagem {
 
   public abstract exibeDetalhes(): void
 }
-
-export default Passagem

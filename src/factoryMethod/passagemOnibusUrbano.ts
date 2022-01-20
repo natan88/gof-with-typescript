@@ -1,9 +1,9 @@
-import Passagem from './passagem';
+import { Passagem } from '.'
 
 /**
  * Este e um produto concreto
  */
-class PassagemOnibusUrbano extends Passagem {
+export class PassagemOnibusUrbano extends Passagem {
   constructor(origem: string, destino: string, dataHoraPartida: Date) {
     super(origem, destino, dataHoraPartida)
   }
@@ -15,5 +15,3 @@ class PassagemOnibusUrbano extends Passagem {
     Data/Hora: ${this.getDataHoraPartidaFormatada()}`)
   }
 }
-
-export default PassagemOnibusUrbano

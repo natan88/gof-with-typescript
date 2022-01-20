@@ -1,0 +1,6 @@
+export * from './empresa'
+export * from './empresaOnibusInterestadual'
+export * from './empresaOnibusUrbano'
+export * from './passagem'
+export * from './passagemOnibusInterestadual'
+export * from './passagemOnibusUrbano'

@@ -1,5 +1,4 @@
-import EmpresaOnibusInterestadual from './empresaOnibusInterestadual'
-import EmpresaOnibusUrbano from './empresaOnibusUrbano'
+import { EmpresaOnibusInterestadual, EmpresaOnibusUrbano } from '.'
 
 const app = () => {
   const viacaoAbcLocal = new EmpresaOnibusUrbano()
